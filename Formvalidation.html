@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>form validation</title>
+</head>
+
+<body>
+    <form>
+        <datalist id="names">
+            <option value = "Mahbub Alam"> Mahbub Alam </option>
+            <option value = "Riad"> Riad </option>
+            <option value = "Toru"> Toru </option>
+            <option value = "Richi"> Richi </option>
+        </datalist>
+        <datalist id="mail">
+            <option value ="mahbub.bubt2016@gmail.com">mahbub.bubt2016@gmail.com</option>
+            <option value ="milton.bubt2016@gmail.com">milton.bubt2016@gmail.com</option>
+        </datalist>
+        <input type="text" list="names" placeholder="username" required pattern="[a-zA-Z0-9]+"></p>
+        <input type="email" list="mail" placeholder="enter your email">
+        <p>
+            <input type="submit" value="signup ">
+    </form>
+</body>
+
+</html>
